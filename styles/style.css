@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.gridRow {
+    display: flex;
+    justify-content: center;
+}
+
+.gridBlock {
+    display: flex;
+    margin: 0px;
+    padding: 2px;
+}
+
+.create-btn, 
+.clear-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
